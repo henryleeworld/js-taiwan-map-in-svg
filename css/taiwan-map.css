@@ -1,0 +1,92 @@
+.taiwan-map {
+	width: 350px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.taiwan-map .mouse {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #FFF;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+}
+
+.taiwan-map .map_block:hover {
+	fill: #e3441c;
+	cursor: pointer;
+	outline: none;
+}
+
+.taiwan-map .map_block:focus {
+	outline: none;
+}
+
+.taiwan-map .map_focus {
+	cursor: pointer;
+	fill: #edb302;
+}
+
+/* 北區 */
+
+.taiwan-map svg path[name='台北市'],
+.taiwan-map svg path[name='新北市'],
+.taiwan-map svg path[name='基隆市'],
+.taiwan-map svg path[name='桃園縣'],
+.taiwan-map svg path[name='新竹市'],
+.taiwan-map svg path[name='新竹縣'] {
+	fill: #edb302;
+}
+
+/* 中區 */
+
+.taiwan-map svg path[name='苗栗縣'],
+.taiwan-map svg path[name='台中市'],
+.taiwan-map svg path[name='彰化縣'],
+.taiwan-map svg path[name='南投縣'],
+.taiwan-map svg path[name='雲林縣'] {
+	fill: #01b3d6;
+}
+
+/* 南區 */
+
+.taiwan-map svg path[name='嘉義縣'],
+.taiwan-map svg path[name='嘉義市'],
+.taiwan-map svg path[name='台南市'],
+.taiwan-map svg path[name='高雄市'],
+.taiwan-map svg path[name='屏東縣'] {
+	fill: #c967ac;
+}
+
+/* 東區 */
+
+.taiwan-map svg path[name='宜蘭縣'],
+.taiwan-map svg path[name='花蓮縣'],
+.taiwan-map svg path[name='台東縣'] {
+	fill: #b5cb0d;
+}
+
+.taiwan-map svg path.map_focus[name='台北市'],
+.taiwan-map svg path.map_focus[name='新北市'],
+.taiwan-map svg path.map_focus[name='基隆市'],
+.taiwan-map svg path.map_focus[name='桃園縣'],
+.taiwan-map svg path.map_focus[name='新竹市'],
+.taiwan-map svg path.map_focus[name='宜蘭縣'],
+.taiwan-map svg path.map_focus[name='新竹縣'],
+.taiwan-map svg path.map_focus[name='苗栗縣'],
+.taiwan-map svg path.map_focus[name='台中市'],
+.taiwan-map svg path.map_focus[name='彰化縣'],
+.taiwan-map svg path.map_focus[name='南投縣'],
+.taiwan-map svg path.map_focus[name='雲林縣'],
+.taiwan-map svg path.map_focus[name='嘉義縣'],
+.taiwan-map svg path.map_focus[name='嘉義市'],
+.taiwan-map svg path.map_focus[name='台南市'],
+.taiwan-map svg path.map_focus[name='高雄市'],
+.taiwan-map svg path.map_focus[name='屏東縣'],
+.taiwan-map svg path.map_focus[name='花蓮縣'],
+.taiwan-map svg path.map_focus[name='台東縣'] {
+	fill: #e3441c;
+}
